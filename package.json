@@ -1,0 +1,39 @@
+{
+  "name": "pdf-annotation-rotation",
+  "version": "0.1.1",
+  "description": "Rotate PDF/canvas annotations (boxes, lines, ink, source masks) a quarter turn in display coordinates, without mutating the input.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./scripts/geometry.mjs"
+  },
+  "files": [
+    "scripts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/run.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "pdf",
+    "annotations",
+    "geometry",
+    "javascript",
+    "esm",
+    "canvas",
+    "rotation",
+    "zero-dependencies"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kein-chronicle/pdf-annotation-rotation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kein-chronicle/pdf-annotation-rotation/issues"
+  },
+  "homepage": "https://github.com/Kein-chronicle/pdf-annotation-rotation#readme"
+}
